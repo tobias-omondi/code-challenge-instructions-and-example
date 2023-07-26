@@ -3,3 +3,74 @@ body, html {
   padding: 0;
   text-align: center;
 }
+
+h1 {
+  padding: 1rem;
+  background-color: #f1f1f1;
+}
+
+#animallist {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#animallist li {
+  cursor: pointer;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s ease-in-out;
+}
+
+#animallist li:hover {
+  background-color: #ececec;
+}
+
+
+#animalDetails {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  background-color: #fff;
+  text-align: center;
+}
+
+#animalDetails h3 {
+  margin-top: 0;
+}
+
+#animalDetails img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+#animalDetails p {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+#animalDetails button {
+  padding: 0.5rem 1rem;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+#animalDetails button:hover {
+  background-color: #45a049;
+}
+
+#animalDetails button:disabled {
+  background-color: #a1a1a1;
+  cursor: not-allowed;
+}
